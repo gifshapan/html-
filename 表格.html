@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+  <div class="login">
+      <Form action="表格.html" method="get">
+          <div class="username">
+              <label for="username">姓名</label>
+              <input id="username" type="text" name="username">
+          </div>
+          <div class="password">
+              <label for="password">密码</label>
+              <input id="password" type="password" name="password" placeholder="输入密码">
+          </div>
+          <div>
+              <div class="submit">
+                  <button>提交</button>
+              </div>
+              <div class="hobby">
+                  <label>爱好</label>
+                  <input type="checkbox" name="hobby" value="music">唱歌
+                  <input type="checkbox" name="hobby" value="read">读书
+                  <input type="checkbox" name="hobby" value="study">学习
+</div>
+              <div class="sex">
+                  <label>性别</label>
+                  <input type="radio" name="sex" value="男">男
+                  <input type="radio" name="sex" value="女">女
+              </div>
+              <div class="file">
+                  <input type="file" name="myfile" accept="image/png">
+              </div>
+              <div class="select">
+                  <select name="city">
+                      <option value="shanghai">上海</option>
+                      <option value="beijing">北京</option>
+                      <option value="nanjing" >南京</option>
+                  </select>
+              </div>
+              <input type="hidden" name="csrf" value="123456">
+              <input type="button" value="clice me"/>
+              <br>
+              <input type="submit" value="submit"/>
+              <br>
+              <input type="reset" value="刷新"/>
+      </Form>
+
+  </div>
+</body>
+</html>
